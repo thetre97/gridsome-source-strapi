@@ -7,11 +7,18 @@ const log = consola.withTag('gridsome-source-strapi')
 
 const scalarTypeMap = new Map([
   ['integer', 'Int'],
-  ['string', 'String'],
-  ['text', 'String'],
-  ['richtext', 'String'],
-  ['uid', 'String'],
-  ['timestamp', 'Date']
+    ['string', 'String'],
+    ['text', 'String'],
+    ['richtext', 'String'],
+    ['uid', 'String'],
+    ['timestamp', 'Date'],
+    ['date', 'Date'],
+    ['enumeration', 'String'],
+    ['boolean', 'Boolean'],
+    ['float', 'Float'],
+    ['email', 'String'],
+    ['password', 'String'],
+    ['json', 'JSON']
 ])
 
 interface Options {
